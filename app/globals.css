@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* optional global styles */
 body {
   margin: 0;
   font-family: var(--font-geist-sans), sans-serif;
+  background: url("/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }

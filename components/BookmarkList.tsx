@@ -1,32 +1,28 @@
 "use client";
+import { Bookmark } from "@/types/bookmark";
 
-import { Bookmark } from "../types/bookmark";
-
-interface Props {
+export default function BookmarkList({
+  bookmarks,
+  onRemove,
+}: {
   bookmarks: Bookmark[];
   onRemove: (index: number) => void;
-}
+}) {
+  if (!bookmarks.length) return <p className="mt-3 text-gray-300">No bookmarks yet</p>;
 
-export default function BookmarkList({ bookmarks, onRemove }: Props) {
   return (
-    <ul id="bookmark-list" className="space-y-4 w-full mt-2">
-      {bookmarks.map((bookmark, index) => (
-        <li key={index} className="bg-white rounded-lg shadow p-4 w-full break-words">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
-            <a
-              href={bookmark.url}
-              target="_blank"
-              className="text-black border border-transparent px-4 py-2 rounded-lg hover:border-black transition-all break-words"
-            >
-              {bookmark.name}
-            </a>
-            <button
-              onClick={() => onRemove(index)}
-              className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-800 transition-all"
-            >
-              Remove
-            </button>
-          </div>
+    <ul className="space-y-3 w-full mt-4">
+      {bookmarks.map((b, i) => (
+        <li key={i} className="bg-black/20 rounded-lg shadow p-4 flex justify-between items-center">
+          <a href={b.url} target="_blank" className="font-bold">
+            {b.name}
+          </a>
+          <button
+            onClick={() => onRemove(i)}
+            className="bg-red-900 text-white font-bold px-3 py-2 rounded-lg hover:bg-red-800 transition"
+          >
+            Remove
+          </button>
         </li>
       ))}
     </ul>
