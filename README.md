@@ -1,4 +1,4 @@
-# 🔖 Bookmark Manager
+# 🔖 Bookly
 
 A **Next.js 14 + TypeScript + TailwindCSS** application to organize and manage bookmarks efficiently.  
 Built with modern web technologies and designed to be **clean, fast, and developer-friendly**.
