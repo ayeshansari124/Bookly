@@ -1,4 +1,4 @@
-# 🔖 Bookly — Bookmark Manager
+# 🔖 Bookly - Bookmark Manager
 
 A clean and minimal bookmark management application built using **Next.js, React, TypeScript, and Tailwind CSS**.
 
