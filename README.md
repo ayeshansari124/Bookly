@@ -36,8 +36,7 @@ https://ayeshaas-bm.netlify.app/
 
 ## 📸 Screenshots
 
-![Bookly UI](<Screenshot 2026-05-21 014254.png>)
-
+![BOOKLY](<Screenshot 2026-05-21 013721.png>)
 ---
 
 ## 📈 Project Purpose
