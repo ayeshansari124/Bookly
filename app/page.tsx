@@ -45,7 +45,7 @@ export default function HomePage() {
         <div className="flex flex-col items-center text-center">
           <div className="mb-8">
             <h1 className="text-4xl sm:text-5xl font-black tracking-tight">
-              Bookmark Manager
+              Bookly
             </h1>
 
             <p className="text-gray-400 mt-3 text-sm sm:text-base">
