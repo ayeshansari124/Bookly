@@ -1,9 +1,8 @@
 # 🔖 Bookly - Bookmark Manager
 
-A clean and minimal bookmark management application built using **Next.js, React, TypeScript, and Tailwind CSS**.
+A modern bookmark management application built using **Next.js, React, TypeScript, and Tailwind CSS**.
 
-Bookly allows users to save and quickly access their favorite websites through a modern and responsive interface.  
-This project was primarily built to understand concepts like **Local Storage**, client-side state management, and component-based frontend architecture.
+Bookly enables users to save and instantly access their favorite websites through a clean, responsive, and user-friendly interface while leveraging browser Local Storage for persistent client-side data storage.
 
 ## 🌐 Live Demo
 
@@ -13,14 +12,13 @@ https://ayeshaas-bm.netlify.app/
 
 ## ✨ Features
 
-- Save website bookmarks instantly
-- Store bookmarks using Local Storage
-- Quick access to saved links
-- Clean modern dark-themed UI
-- Responsive layout
+- Save and manage bookmarks
+- Persistent Local Storage support
+- Instant access to saved links
+- Responsive modern UI
+- Dynamic bookmark rendering
 - Reusable React components
-- Minimal and user-friendly interface
-- Persistent data without backend usage
+- Minimal dark-themed design
 
 ---
 
@@ -36,48 +34,33 @@ https://ayeshaas-bm.netlify.app/
 
 ## 📸 Screenshots
 
-![BOOKLY](<Screenshot 2026-05-21 013721.png>)
+![BOOKLY](bookly-ui.png)
+
 ---
 
-## 📈 Project Purpose
+## 🧠 What I Learned
 
-This project was built as a hands-on frontend practice project to better understand:
-
-- Local Storage
+- Browser Local Storage handling
 - Client-side data persistence
-- React state handling
-- Dynamic rendering
-- Component-based UI architecture
+- React state management
+- Dynamic rendering techniques
+- User input handling
+- Component-based frontend architecture
+- Responsive UI development using Tailwind CSS
 
-Instead of building only static interfaces, the goal was to create a small functional application with real interactivity and persistent user data.
-
----
-
-## 🧠 Lessons Learned
-
-Through this project, I learned:
-
-- How browser Local Storage works
-- Storing and retrieving user data on the client side
-- Managing dynamic state in React
-- Building reusable UI components
-- Structuring applications using Next.js App Router
-- Creating responsive layouts using Tailwind CSS
-- Handling user input and rendering dynamic bookmark cards
-
-This project helped strengthen my understanding of frontend interactivity beyond static webpage development.
+This project improved my understanding of frontend interactivity and state-driven user experiences.
 
 ---
 
 ## 💡 Future Improvements
 
-- Bookmark categories/tags
-- Edit functionality
-- Search bookmarks
-- Drag-and-drop sorting
+- Bookmark categories and tags
+- Edit and delete functionality
+- Search and filtering
+- Drag-and-drop organization
 - Authentication system
 - Cloud database integration
-- Import/export bookmarks
+- Import/export support
 
 ---
 
